@@ -1,0 +1,213 @@
+.nosotros {
+  height: 800px;
+  background-image: url(../img/background_nosotros.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.nosotros__titulo {
+  color: #647d2e;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  vertical-align: middle;
+  line-height: 800px; }
+
+.servicios {
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: space-evenly;
+  align-self: start; }
+
+.servicios__descripcion {
+  height: 200px;
+  margin: 8px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border: 10px;
+  border-radius: 10px;
+  color: #1e453e;
+  text-align: center; }
+
+.servicios__titulos {
+  color: #1e453e;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+  padding: 10px; }
+
+.somos__titulos {
+  color: #1e453e;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+  padding: 10px; }
+
+.somos__parrafo {
+  color: #1e453e;
+  font-weight: normal;
+  text-align: center; }
+
+.servicios__div {
+  margin: 100px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #e0e0e0;
+  background-image: url(../img/backgroundPaint.png);
+  background-size: contain;
+  font-family: 'Montserrat', sans-serif; }
+
+.navegacion {
+  height: 80px;
+  padding-top: 20px;
+  background-color: #e0e0e0;
+  background-image: url(../img/backgroundPaint.png);
+  font-family: 'Montserrat', sans-serif; }
+
+.navegacion__listas {
+  flex-grow: inherit; }
+
+.yaguarete {
+  height: 500px;
+  background-color: #1e453e;
+  background-image: linear-gradient(314deg, #1e453e 0%, #182c25 74%);
+  background-image: url(../img/yaguarete.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.yaguarete__parrafo {
+  color: #ffffff;
+  text-align: left;
+  font-weight: normal;
+  height: 200px;
+  width: 30%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 2px; }
+
+.yaguarete__parrafo--estilo {
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.yaguarete__boton--estilo {
+  background-color: #647d2e;
+  border: none;
+  align-content: flex-start; }
+
+.titulos {
+  color: #647d2e;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 20px;
+  padding: 10px; }
+
+.parrafo {
+  color: #647d2e;
+  font-weight: normal;
+  text-align: center; }
+
+.logo {
+  height: 130px; }
+
+ul li {
+  display: inline-block;
+  color: #fff8dc;
+  list-style: none; }
+  ul li a {
+    color: #1e453e;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin-right: 10px; }
+
+footer {
+  background-image: url(../img/footer.png);
+  background-position: bottom;
+  color: #fff8dc; }
+
+footer h2, footer h3, footer h4 {
+  text-align: center;
+  font-weight: lighter; }
+
+@media (max-width: 1000px) {
+  .navegacion {
+    padding-top: 0px; }
+  .yaguarete__parrafo {
+    width: 60%; }
+  .yaguarete {
+    background-image: url(../img/background_hojas.png);
+    background-repeat: repeat;
+    background-size: contain; }
+  .logo {
+    height: 90px; } }
+
+.actividades_padre {
+  display: flex;
+  flex-flow: row wrap;
+  height: 300px;
+  justify-content: space-evenly;
+  align-self: start; }
+
+.actividades_hijos {
+  height: 200px;
+  margin: 8px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border: 10px;
+  border-radius: 10px;
+  color: #647d2e;
+  font-weight: bold;
+  text-align: center;
+  transition: height 2s; }
+
+.actividades_hijos:hover {
+  height: 300px; }
+
+.cuadrilla {
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-column-gap: 20px; }
+
+.cuadrilla__primer_hijo {
+  background-color: #1e453e;
+  background-image: linear-gradient(314deg, #1e453e 0%, #182c25 74%);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr; }
+
+.cuadrilla__primer_hijo--estilo {
+  color: #ffffff;
+  font-weight: bold; }
+
+.cuadrilla__hijo {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-row-gap: 5px;
+  justify-items: space-around; }
+
+.cuadrilla__segundo_hijo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-items: center; }
+
+.cuadrilla__segundo_hijo--estilo {
+  height: 200px;
+  margin: 8px;
+  border: solid;
+  border-color: #1e453e;
+  border-radius: 10px; }
+
+.bordes {
+  border: solid; }
